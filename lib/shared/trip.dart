@@ -20,6 +20,7 @@ class Trip with _$Trip {
       destination: json['destination'],
       dateOfTrip: DateTime.fromMillisecondsSinceEpoch(json['dateOfTrip']),
       riskAssessment: json['riskAssessment'] == 1,
+      description: json['description'],
     );
   }
 }
